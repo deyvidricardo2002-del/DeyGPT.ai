@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DeyGPT.ai</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- BARRA LATERAL -->
+  <aside class="sidebar" id="sidebar">
+    <h2>Histórico</h2>
+
+    <button id="newChat">+ Nova conversa</button>
+
+    <div id="chatHistory"></div>
+  </aside>
+
+  <!-- FUNDO ESCURO -->
+  <div class="sidebar-overlay" id="sidebarOverlay"></div>
+
+  <!-- CABEÇALHO -->
+  <header>
+
+    <button id="menuButton" class="menu-button"
+      aria-label="Abrir histórico">
+      <span></span>
+      <span></span>
+    </button>
+
+    <div>
+      <h1>DeyGPT.ai</h1>
+      <p>Sua inteligência artificial.</p>
+    </div>
+
+  </header>
+
+  <!-- CONTEÚDO -->
+  <main>
+
+    <div id="chat">
+      <div class="message bot">
+        Olá! Eu sou o DeyGPT.ai. Como posso ajudar?
+      </div>
+    </div>
+
+    <div class="input-area">
+      <input type="text" placeholder="Digite sua mensagem...">
+      <button>Enviar</button>
+    </div>
+
+  </main>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
